@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: url('../images/x-wing.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size:18px;
+}
+
+.img-thumbnail{
+    width: 150px;
+    height: 150px;
+}
+
+#yourcharacter{
+    height:200px;
+}
+
+#restart{
+    display: none;
+}
