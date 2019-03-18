@@ -5,25 +5,26 @@
     <title>Star Wars RPG</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/game.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer src="assets/javascript/game.js"></script>
 </head>
 
 <body>
     <h1>Star Wars RPG!</h1>
     <div id="characters">
-            <span id="obiwan">
-                <img src="assets/images/obiwan.jpg" alt="obiwan" class="img-thumbnail">
+            <span>
+                <img src="assets/images/obiwan.jpg" alt="obiwan" id="obiwan" class="img-thumbnail">
             </span>
-            <img src="assets/images/luke.jpg" alt="luke" class="img-thumbnail">
-            <img src="assets/images/darthsidious.jpg" alt="darthsidious" class="img-thumbnail">
-            <img src="assets/images/darthmaul.jpg" alt="darthmaul" class="img-thumbnail">
+            <img src="assets/images/luke.jpg" alt="luke" id="luke" class="img-thumbnail">
+            <img src="assets/images/darthsidious.jpg" alt="darthsidious" id="darthsidious" class="img-thumbnail">
+            <img src="assets/images/darthmaul.jpg" alt="darthmaul" id="darthmaul" class="img-thumbnail">
     </div>
     <div id="yourcharacter">
         <p>
             Your Character
-        </p>
+        </p> 
     </div>
+    <span id="health"></span>
     <div id="enemies">
         <p>
             Enemies Available to Attack
@@ -39,8 +40,15 @@
         <p>
             Defender
         </p>
-        <button id="restart">Restart</button>
     </div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+    <div id="d4"></div>
+    <div id="enemyHP"></div>
+    <div id="fightlog"></div>
+    <button id="restart">Restart</button>
+    
 </body>
 
 </html>
